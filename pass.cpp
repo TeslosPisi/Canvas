@@ -22,7 +22,7 @@
  // The address of the function argument (in this case num) is attained by the "address-of" operator &.
   void pass_by_reference(int &i) {
     std::cout << &i<<"\n";  //Prints the address of the provided argument
-    i = 10;                 // Assigns a new value to the variable stored in the argument
+    i = 10;                 // Assigns a new value to the address provided in the argument.
   }
 
 
